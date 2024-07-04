@@ -1,0 +1,621 @@
+*{                             
+    margin:0;               
+    padding:0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.list1{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    gap: 40px;
+}
+.first, .second{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+}
+nav{
+    padding: 10px 0px;
+    background-color: #333;  
+}  
+nav a:hover{
+    opacity: 1;
+}
+div.a{
+    position: sticky;
+    top: 0;
+    z-index: 2;   
+}
+.b{
+    background-color: rgb(29,29,31);
+    color: rgba(255, 255, 255, 0.798);
+    justify-content: space-evenly;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 15px;
+}
+.link2{
+    color: rgb(45, 100, 200);
+    text-decoration: none;
+}
+.link3{
+    color: white;
+    text-decoration: none;
+}
+.link3:hover{
+    color: rgb(45, 100, 200);
+}
+.pageone{
+    background-image:url(hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.headline{
+    padding-top: 40px;
+    font-size:55px;
+    font-weight: 500;
+
+}
+.subhead{
+    font-size: 30px;
+    font-weight: 250;
+}
+.bu{
+    padding-top: 50px;
+    align-items: center;
+    
+}
+.button-primary{
+    text-decoration: none;
+    color: white;
+}
+.b1{
+    padding: 14px;
+    width: 120px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: rgb(45, 100, 200);
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+.b2{
+    padding: 14px 20px;
+    border-radius: 25px;
+    border-color: rgb(45, 100, 200);
+    background-color:black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 15px;
+    text-decoration: none;
+    color:  rgb(45, 100, 200);
+
+}
+.b2:hover{
+    background-color: rgb(45, 100, 200);
+    color: white;
+}
+.pagetwo{
+    background-image:url(hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    text-align: center;
+    color:black;
+    margin-top: 10px;
+
+}
+.b3{
+    padding: 14px 20px;
+    border-radius: 25px;
+    border-color: rgb(45, 100, 200);
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(45, 100, 200);
+}
+.b3:hover{
+    background-color: rgb(45, 100, 200);
+    color: white;
+}
+.pagethree{
+    background-image:url(hero_macbook_air_m3__cp4t7pn8zqaa_largetall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    text-align: center;
+    color:black;
+    margin-top: 10px;
+
+}
+.parent,.parent2{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    height: 600px;
+    margin-top: 10px;
+
+}
+#myDIV{
+    display:none;
+    justify-content: center;
+    gap: 10px;
+    height: 600px;
+    margin-top: 10px;
+}
+.pagefour1{
+    background-image:url(promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.pagefour2{
+    background-image:url(promo_ipad__fioegapg12qi_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: black;
+    text-align: center;
+    width:50%
+}
+.headline1{
+    padding-top: 40px;
+    font-size:40px;
+    font-weight: 500;
+
+}
+.subhead1{
+    
+    font-size: 18px;
+    font-weight: normal;
+}
+.headline2{
+    padding-top: 40px;
+    font-size:40px;
+    font-weight: 500;
+
+}
+.subhead2{
+
+    font-size: 18px;
+    font-weight: normal;
+}
+.b11{
+    padding: 9px 12px;
+    border-radius: 18px;
+    border-style: none;
+    background-color: rgb(45, 100, 200);
+    font-size: 13px;
+    text-decoration: none;
+    color: white;    
+}
+.b12{
+    padding: 9px 18px;
+    border-radius: 20px;
+    border-color: rgb(45, 100, 200);
+    background-color:black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(45, 100, 200) ;
+}
+.b13{
+    padding: 9px 18px;
+    border-radius: 20px;
+    border-color: rgb(45, 100, 200);
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(45, 100, 200) ;
+}
+.bu1{
+    padding-top: 50px;
+}
+.b12:hover{
+    background-color: rgb(45, 100, 200);
+    color: white;
+}
+.b13:hover{
+    background-color: rgb(45, 100, 200);
+    color: white;
+}
+.pagefour3{
+    background-image:url(promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.pagefour4{
+    background-image:url(promo_mbp__ek7p477bkp6q_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: black;
+    text-align: center;
+    width:50%    
+}
+.pagefour5{
+    background-image:url(tile_homepod_mini__b73w4z3ljymu_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: black;
+    text-align: center;
+    width:50%    
+}
+.pagefour6{
+    background-image:url(promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    color: black;
+    text-align: center;
+    width:50%    
+}
+.container{
+    width: 100%;
+    height: 85vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 100%;
+    height: 100vh;
+    scale: 0.8;
+}
+.swiper-slide img{
+    width:99%;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color: #fff;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #444; 
+}
+.link4{
+    color: rgba(0, 0, 0, 0.72);
+}
+.list2{
+    list-style: none;
+    padding-top: 20px;
+    
+}
+.list2 li{
+    padding-bottom: 10px;
+    font-size: 12px;
+    margin-left: 220px;
+    margin-right: 220px;
+    color: rgba(0, 0, 0, 0.56);
+
+}
+.parentdiv{
+    background-color: rgb(245, 245, 247);
+    padding-bottom: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 450px;
+    margin-left: 220px;
+    margin-right: 220px;
+
+}
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 12px;
+}
+li{
+    text-align: left;
+}
+ul li{
+    padding-top: 10px;
+}
+.libo{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.72);
+    font-size: 12px;
+}
+.libo:hover{
+    text-decoration:underline;
+}
+.p1{
+    font-size: 12px;
+    margin-left: 220px;
+    margin-top: -30px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.p2{
+    margin-top:20px;
+    font-size: 12px;
+    margin-left: 220px;
+    color: rgba(0, 0, 0, 0.72);
+}
+.link5{
+    color: rgb(0, 102, 204) ;
+}
+hr{
+    margin-left: 220px;
+    margin-right: 220px;
+    border-top: 0.5px solid;
+}
+.bold{
+    font-weight: 500;
+}
+.ba{
+    padding: 14px;
+    width: 120px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: rgb(45, 100, 200);
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    .first{
+        display: none;
+    }
+    .list1{
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        justify-content: center;
+        gap: 15px;
+    }
+    .pageone, .pagetwo, .pagethree, .parent, .parent2, #myDIV{
+        background-size: cover;
+        height: 500px;
+    }
+    .headline{
+        font-size: 28px;
+
+    }
+    .b{
+        background-color: rgb(29,29,31);
+        color: rgba(255, 255, 255, 0.798);
+        justify-content: space-evenly;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .subhead{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .b1{
+        padding: 9px 12px;
+    border-radius: 18px;
+    font-size: 13px;
+    
+    }
+    .bu{
+        padding-top: 25px;
+    }
+    .bu1{
+        padding-top: 25px;
+    }
+    .b2, .b3{
+        padding: 9px 12px;
+    border-radius: 18px;
+    font-size: 13px;
+    }
+    .parent, .parent2, #myDIV{
+        display: contents;
+    }
+    .pagefour1, .pagefour2, .pagefour3,.pagefour4, .pagefour5, .pagefour6{
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+    }
+    .headline1, .headline2{
+        font-size: 28px;
+    }
+    .subhead1, .subhead2{
+        font-size: 18px;
+    }
+    .container{
+        width: 100%;
+        height: 60vh;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .swiper{
+        width: 100%;
+        height: 50vh;
+        scale: 1;
+    }
+    .list2{
+        margin-left: -200px;
+        margin-right: -200px;
+    }
+    .grid{
+        display: none;
+    }
+    .remove{
+        display: none;
+    }
+    .move{
+        margin-left: -200px;
+        margin-top: 60px;
+    }
+    .parentbo{
+        margin-left: -200px;
+    }
+    .second{
+        font-size: 20px;
+    }
+    .center{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 601px){
+    .first{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .list1{
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        justify-content: center;
+    }
+    .pageone, .pagetwo, .pagethree, .parent, .parent2, #myDIV{
+        background-size: cover;
+        height: 500px;
+    }
+    .headline{
+        font-size: 28px;
+
+    }
+    .b{
+        background-color: rgb(29,29,31);
+        color: rgba(255, 255, 255, 0.798);
+        justify-content: space-evenly;
+        padding-top: 10px;
+        padding-bottom: 12px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .subhead{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .b1{
+        padding: 9px 12px;
+    border-radius: 18px;
+    font-size: 13px;
+    
+    }
+    .bu{
+        padding-top: 25px;
+    }
+    .bu1{
+        padding-top: 25px;
+    }
+    .b2, .b3{
+        padding: 9px 12px;
+    border-radius: 18px;
+    font-size: 13px;
+    }
+    .parent, .parent2, #myDIV{
+        display: contents;
+    }
+    .pagefour1, .pagefour2, .pagefour3,.pagefour4, .pagefour5, .pagefour6{
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+    }
+    .headline1, .headline2{
+        font-size: 28px;
+    }
+    .subhead1, .subhead2{
+        font-size: 18px;
+    }
+    .container{
+        width: 100%;
+        height: 60vh;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .swiper{
+        width: 100%;
+        height: 50vh;
+        scale: 1;
+    }
+    .list2{
+        margin-left: -200px;
+        margin-right: -200px;
+    }
+    .grid{
+        display: none;
+    }
+    .remove{
+        display: none;
+    }
+    .move{
+        margin-left: -200px;
+        margin-top: 60px;
+    }
+    .parentbo{
+        margin-left: -200px;
+    }
+    .second{
+        font-size: 20px;
+    }
+    .center{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 801px){
+    .grid{
+        margin-left: -80px;
+        margin-right: -20px;
+    }
+    .move{
+        margin-left: -80px;
+    }
+    .parentbo{
+        margin-left: -80px;
+    }
+    .list2{
+        margin-left: -80px;
+        margin-right: -80px;   
+    }
+    
+}
